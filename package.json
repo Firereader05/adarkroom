@@ -1,0 +1,30 @@
+{
+  "name": "adarkroom",
+  "type": "module",
+  "version": "1.0.0",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/doublespeakgames/adarkroom.git"
+  },
+  "author": "Michael Townsend <michael@doublespeakgames.com>",
+  "license": "MPL-2.0",
+  "scripts": {
+    "start": "node dev-server.js",
+    "update_pot": "pybabel extract -F lang/babel.cfg -c \"TRANSLATORS\" script -o lang/adarkroom.pot"
+  },
+  "dependencies": {
+    "express": "^4.21.1"
+  },
+  "description": "A Dark Room =========== > \"awake. head throbbing. vision blurry. come light the fire.\"",
+  "bugs": {
+    "url": "https://github.com/doublespeakgames/adarkroom/issues"
+  },
+  "homepage": "https://github.com/doublespeakgames/adarkroom#readme",
+  "main": "dev-server.js",
+  "directories": {
+    "doc": "doc",
+    "lib": "lib"
+  },
+  "keywords": []
+}
